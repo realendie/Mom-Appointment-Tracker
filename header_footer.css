@@ -1,0 +1,9 @@
+/* Header CSS */
+.header {
+    background-color: #ffffffcb;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
