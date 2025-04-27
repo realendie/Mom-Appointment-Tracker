@@ -28,6 +28,15 @@ body h1 {
     border-radius: 10px;
 }
 
+.header_menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header_menu button{
     background-color: #ffffffcb;
     padding: 10px;
@@ -38,12 +47,13 @@ body h1 {
     place-content: center;
     border-radius: 5px;
 }
+.header_menu button:hover {
+    background-color: #ffc4006e;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px #ffcb22);
+}
 
-.header_menu a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.header_menu button:active {
+    background-color: #ffcb22;
+    filter: drop-shadow(0 0 5px #ffc4006e);
 }
