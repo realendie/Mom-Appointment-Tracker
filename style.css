@@ -10,8 +10,16 @@
     margin-left: 20px;
 }
 
+.about_me h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 875px;
+}
 .about_me p {
-    margin-left: ;
+    margin-left: 900px;
+    font-size: xx-large;
 }
 
 .mom_image {
