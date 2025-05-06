@@ -1,7 +1,22 @@
 /*About Me Section*/
 
+.about_me {
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+
+.about_me p {
+    margin-left: ;
+}
+
 .mom_image {
-    width: 20px;
+    width: 50%;
+    float: left;
 }
 
 /* Privacy Policy Section */
