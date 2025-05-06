@@ -37,3 +37,22 @@
     text-align: left;
     margin-left: 20px;
 }
+
+/* Hire Me Section */
+
+.hire_me {
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+
+.hire_me h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
