@@ -1,9 +1,58 @@
-/* Header CSS */
-.header {
-    background-color: #ffffffcb;
-    padding: 20px;
-    font-size: 24px;
+/*About Me Section*/
+
+.about_me {
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+
+.about_me h1 {
+    font-size: 50px;
     font-weight: bold;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_me p {
+    font-size: xx-large;
+}
+
+.mom_image {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+/* Privacy Policy Section */
+
+.privacy_policy_field {
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Hire Me Section */
+
+.hire_me {
+    color: #000000;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+
+.hire_me h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
