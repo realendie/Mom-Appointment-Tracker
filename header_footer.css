@@ -57,4 +57,5 @@ body h1 {
 .header_menu button:active {
     background-color: #ffcb22;
     filter: drop-shadow(0 0 5px #ffc4006e);
+    border-radius: 0px;
 }
