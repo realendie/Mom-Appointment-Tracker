@@ -1,58 +1,80 @@
-/*About Me Section*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .about_me {
-    color: #000000;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: left;
-    margin-left: 20px;
-}
-
-.about_me h1 {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.about_me p {
-    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .mom_image {
-    width: 50%;
-    float: left;
-    margin-right: 5%;
+    max-width: 100%;
+    width: 400px;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
 
-/* Privacy Policy Section */
+.about_text {
+    max-width: 600px;
+}
 
-.privacy_policy_field {
-    color: #000000;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    margin-left: 20px;
+.about_me h1,
+.hire_me h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about_me p,
+.hire_me p,
+.hire_me ul {
+    font-size: 1.25rem;
+    line-height: 1.6;
 }
 
 /* Hire Me Section */
-
 .hire_me {
-    color: #000000;
-    font-size: 35px;
-    font-weight: normal;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 20px;
-    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 
-.hire_me h1 {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.hire_me ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.calendly-inline-widget {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about_me {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_text {
+        max-width: 100%;
+    }
+
+    .hire_me h1,
+    .about_me h1 {
+        font-size: 2rem;
+    }
+
+    .about_me p,
+    .hire_me p,
+    .hire_me ul {
+        font-size: 1rem;
+    }
 }
