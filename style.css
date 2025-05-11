@@ -48,6 +48,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: left;
     margin-left: 20px;
+    align-items: center;
 }
 
 .hire_me h1 {
