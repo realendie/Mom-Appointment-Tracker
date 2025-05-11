@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Girl Hair</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="Assets\Images\Mom_Image.ico">
+    <link rel="icon" type="image/x-icon" href="Assets/Images/Mom_Image.ico">
 
-
-    <!--Jquery header/footer script-->
+    <!-- Jquery header/footer script -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script>
         $(function () {
             $("#header").load("pages/header.html");
@@ -24,34 +22,36 @@
 <body>
     <div id="header"></div>
 
-    <div class="about_me">
+    <section class="about_me">
+        <img src="Assets/Images/Mom_Photo_Big.jpg" alt="Myself" class="mom_image">
+        <div class="about_text">
+            <h1>About Me!</h1>
+            <p>
+                I love doing hair and making people feel great about themselves! Maybe you're due for a new cut,
+                considering a new color, or just wanting to shake things up a bit; I'm here to help you find something
+                that makes you feel completely you. I want you to leave feeling confident and happy with how you look.
+                Let's do something and create something amazing together!
+            </p>
+        </div>
+    </section>
 
-        <img src="Assets\Images\Mom_Photo_Big.jpg" alt="Myself" class="mom_image">
-        <h1>About Me!</h1>
-        <p>I love doing hair and making people feel great about themselves! Maybe you're due for a new cut,
-            considering a new color, or just wanting to shake things up a bit; I'm here to help you find something
-            that makes you feel completely you. I want you to leave feeling confident and happy with how you look.
-            Let's do something and create something amazing together!</p>
-
-    </div>
-
-    <div class="hire_me">
-
+    <section class="hire_me">
         <h1>Book a Session</h1>
-        <p>I am so exited to work with you! I offer:
+        <p>I am so excited to work with you! I offer:</p>
         <ul>
             <li>Haircuts</li>
             <li>Hair Coloring</li>
             <li>Cuts and Colors</li>
             <li>Waxing</li>
+        </ul>
 
-            </p>
+        <div class="calendly-inline-widget"
+            data-url="https://calendly.com/enderprooffical/cut-color?hide_event_type_details=1&primary_color=1a71ae"
+            style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </section>
 
-            <div class="calendly-inline-widget"
-                data-url="https://calendly.com/enderprooffical/cut-color?hide_event_type_details=1&primary_color=f8f574"
-                style="width:320px;height:700px; float: right;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    </div>
+    <div id="footer"></div>
 </body>
 
 </html>
