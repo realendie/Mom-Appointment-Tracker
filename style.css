@@ -36,6 +36,7 @@ body {
 .hire_me ul {
     font-size: 1.25rem;
     line-height: 1.6;
+    font-weight: normal;
 }
 
 /* Hire Me Section */
@@ -48,6 +49,7 @@ body {
 .hire_me ul {
     padding-left: 20px;
     margin-bottom: 30px;
+    list-style-type: none;
 }
 
 .calendly-inline-widget {
